@@ -19,4 +19,3 @@ def map_to_no_change(source_array)
   end  
   new_arr
 end 
-map_to_no_change(arr)
