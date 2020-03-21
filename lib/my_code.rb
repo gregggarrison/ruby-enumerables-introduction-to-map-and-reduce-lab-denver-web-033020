@@ -30,3 +30,14 @@ def map_to_double(source_array)
   end
   dbl_arr
 end 
+
+def map_to_square(source_array)
+  counter = 0
+  squ_arr = []
+  while counter < source_array.length
+    squ_result = source_array[counter] * source_array[counter]
+    squ_arr << squ_result
+  counter += 1
+  end 
+  squ_arr
+end 
